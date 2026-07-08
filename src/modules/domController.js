@@ -2,6 +2,7 @@
 
 function renderWeather(summary) {
     const container = document.querySelector('#container');
+    container.innerHTML = '';
     const location = document.createElement('div');
     location.classList.add('location');
     location.textContent = summary.location;
