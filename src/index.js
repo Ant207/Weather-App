@@ -13,4 +13,4 @@ searchBtn.addEventListener('click', () => {
             renderWeather(summary);
         })
         .catch(error => container.textContent = "Please enter a valid location.");
-});
+});```
